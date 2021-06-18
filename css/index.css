@@ -1,0 +1,117 @@
+p {
+    margin: 0px;
+}
+body{
+    font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+.about p {
+    font-size: 2vw;
+    line-height: 2.0em;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    color: #7f7f7f;
+}
+
+.about button{
+    border: 5px solid #2e75b5;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 2vw;
+
+}
+
+.title p{
+    background-color: #f2f2f2;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.box-image{
+    position: relative;
+    width: 30%;
+}
+
+.box-image .title-img{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffff;
+
+}
+@media only screen and (max-width: 1024px) {
+    
+    .about button {
+        border: 5px solid #2e75b5;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 2vw;
+    }
+    .box-image .title-img {
+        font-size: 30px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .box-image .title-img {
+        font-size: 20px;
+    }
+
+    .about button {
+        border: 3px solid #2e75b5;
+        border-radius: 10px;
+    }
+    .title p {
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .box-image .title-img {
+        font-size: 15px;
+    }
+    .about p {
+        font-size: 15px;
+        line-height: 2.0em;
+        letter-spacing: 0.04em;
+        font-weight: bold;
+        color: #7f7f7f;
+    }
+    .about button {
+        border: 3px solid #2e75b5;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .box-image .title-img {
+        font-size: 12px;
+    }
+
+    .title p {
+        font-size: 18px;
+    }
+    .banner div {
+        font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .box-image .title-img {
+        font-size: 10px;
+    }
+    .title p {
+        font-size: 15px;
+    }
+    .banner div {
+        font-size: 20px;
+    }
+  }
+
+    @media only screen and (max-width: 320px) {
+        .box-image .title-img {
+            font-size: 8px;
+        }
+    }

@@ -1,0 +1,68 @@
+p {
+    margin: 0px;
+}
+body{
+    font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+.box-describe h1{
+    font-weight: bold;
+}
+.title div{
+    background-color: #f2f2f2;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.box-describe p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sdgs p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.business .mt{
+    margin-top: 100px;
+}
+.business ul{
+    padding-left: 22px;
+}
+.table-striped > tbody > tr:nth-child(2n-2) > td, .table-striped > tbody > tr:nth-child(2n-2) > th {
+    background-color: #ededed;
+ }
+ .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #fff;
+ }
+@media only screen and (max-width: 1024px) {
+    .box-describe p {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .business .mt {
+        margin-top: 50px;
+    }
+    
+  }
+  @media only screen and (max-width: 768px) {
+    .box-describe p {
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .business .mt {
+        margin-top: 30px;
+    }
+    .box-describe h1{
+        font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+  }
+
+  @media only screen and (max-width: 375px) {
+
+  }
+
+    @media only screen and (max-width: 320px) {
+    }
