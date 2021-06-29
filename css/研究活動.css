@@ -19,6 +19,12 @@ body{
     font-size: 20px;
 }
 
+#banner {
+    background: url(../images/3d-render-of-a-modern-network-communications-science-background-with-plexus-design.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
 
 @media only screen and (max-width: 1024px) {
 

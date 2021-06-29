@@ -5,6 +5,13 @@ body{
     font-family: "メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
 }
 
+#banner {
+    background: url(../images/businessman-pointing-graphs-and-symbols.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+
 .box-describe h1{
     font-weight: bold;
 }

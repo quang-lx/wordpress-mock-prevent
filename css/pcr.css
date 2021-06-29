@@ -18,6 +18,11 @@ body{
     font-weight: bold;
     font-size: 20px;
 }
+#banner {
+    background: url(../images/3d-render-of-a-medical-background-with-dna-strands-and-virus-cells.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
 
 
 @media only screen and (max-width: 1024px) {
