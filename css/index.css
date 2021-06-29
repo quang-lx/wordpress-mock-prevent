@@ -43,6 +43,11 @@ body{
     color: #ffff;
 
 }
+.backgroud-opacity{
+    position: absolute;
+    top: 0px;
+    background-color:rgb(4 4 4 / 55%);
+}
 @media only screen and (max-width: 1024px) {
     
     .about button {
@@ -52,7 +57,7 @@ body{
         font-size: 2vw;
     }
     .box-image .title-img {
-        font-size: 30px;
+        font-size: 25px;
     }
   }
   @media only screen and (max-width: 768px) {
