@@ -131,7 +131,7 @@ a:link, a:visited {
 /* start page index */
 
 #index .about p {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     line-height: 2.0em;
     letter-spacing: 0.04em;
     font-weight: bold;
@@ -152,11 +152,11 @@ a:link, a:visited {
 }
 
 #index .description ul li {
-    font-size: 1.2vw;
+    font-size: 1vw;
     letter-spacing: 0.04em;
 }
 #index .description span {
-    font-size: 1.2vw;
+    font-size: 1vw;
     letter-spacing: 0.04em;
 }
 
