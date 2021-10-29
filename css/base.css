@@ -1,0 +1,575 @@
+p {
+    margin: 0px;
+}
+
+body {
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.header .logo span {
+    font-size: 12px;
+    color: #b5bec4;
+}
+
+.header .menu .navbar-nav p {
+    font-size: 16px;
+    display: block;
+    color: #0e6eb8;
+    font-weight: bold;
+}
+
+.header .menu .navbar-nav span {
+    font-size: 10px;
+    margin-top: 12px;
+    color: #b5bec4;
+    font-weight: bold;
+}
+
+.main {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#banner {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+#banner img{
+    padding: 0px;
+    width: 100%;
+}
+
+.banner_index{
+    align-items: flex-end !important;
+}
+
+#layer {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.banner-text p {
+    text-shadow: 2px 2px #585858;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../images/ico-menu-open.png');
+}
+#layer h1 {
+    font-size: 3vw;
+}
+
+.box-describe .preamble{
+    font-size: 17px;
+}
+
+.box-describe p{
+    font-size: 18px;
+}
+.box-describe table{
+    font-size: 18px;
+}
+
+.title div {
+    background-color: #f2f2f2;
+}
+
+.box-describe h1 {
+    font-weight: bold;
+}
+.footer{
+    padding-top: 80px;
+}
+
+.footer .information{
+    background-color: #0e6eb8;
+    height: 114px;
+}
+
+.footer .information a{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer .copy{
+    background-color: #00a0e9;
+    height: 52px;
+}
+
+.footer .copy p{
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
+
+
+
+
+
+/* start page index */
+
+#index .about p {
+    font-size: 2.5vw;
+    line-height: 2.0em;
+    letter-spacing: 0.04em;
+    font-weight: bold;
+    color: rgb(91 155 213);
+}
+
+#index .about button {
+    border: 5px solid rgb(46, 117, 182);
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 2vw;
+    background-color: white;
+}
+
+#index .description p {
+    font-size: 1.5vw;
+    letter-spacing: 0.04em;
+}
+
+#index .description ul li {
+    font-size: 1.2vw;
+    letter-spacing: 0.04em;
+}
+#index .description span {
+    font-size: 1.2vw;
+    letter-spacing: 0.04em;
+}
+
+
+#index .title p {
+    background-color: #f2f2f2;
+    font-size: 1.5rem;
+}
+
+#index .box-image {
+    position: relative;
+    width: 30%;
+}
+
+#index .box-image .title-img {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #ffff;
+}
+
+#index .box-image .title-img p {
+    font-size: 40px;
+}
+
+#index .box-image .title-img span {
+    font-size: 30px;
+}
+
+#index .backgroud-opacity {
+    position: absolute;
+    top: 0px;
+    background-color: rgb(4 4 4 / 5%);
+    text-shadow: 2px 2px #585858
+}
+
+#index .btn-outline-primary-custom {
+    color: rgb(47, 85, 151);
+}
+
+/* end page index */
+
+#company .business .mt {
+    margin-top: 100px;
+}
+
+#company .business ul {
+    padding-left: 22px;
+}
+
+#company .business ul li {
+    margin-bottom: -2rem;
+}
+
+#company .table-striped>tbody>tr:nth-child(2n-2)>td, #company .table-striped>tbody>tr:nth-child(2n-2)>th {
+    background-color: #ededed;
+}
+
+#company .table-striped>tbody>tr:nth-child(2n+1)>td, #company .table-striped>tbody>tr:nth-child(2n+1)>th {
+    background-color: #fff;
+}
+
+#topics .cat-topics {
+    background-color: #0eb89a;
+    border-radius: 4px;
+}
+
+#notice .cat-topics {
+    background-color: #0eb89a;
+    border-radius: 4px;
+}
+
+#contact label{
+    font-size: 18px !important;
+}
+
+
+#pcr .list-check span {
+    font-size: 20px;
+}
+
+#pcr .note{
+    font-size: 16px;
+}
+
+#topics_detail .btn-success-custom{
+    color: #fff;
+    background: #0eb89a;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#topics_detail .btn-outline-secondary-custom{
+    color: #888;
+    background: #fff;
+    width: 160px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+}
+#topics_detail .btn-outline-secondary-custom:hover{
+    color: #888;
+    background: #f2f2f2;
+}
+
+@media only screen and (max-width: 1440px) {
+    #index .box-image .title-img p {
+        font-size: 32px;
+    }
+    #index .box-image .title-img span {
+        font-size: 25px;
+    }
+    #index .description span {
+        font-size: 1.2em;
+        letter-spacing: 0.04em;
+    }
+    #index .description ul li {
+        font-size: 1.2em;
+        letter-spacing: 0.04em;
+    }
+
+    #company .business .mt {
+        margin-top: 80px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    #index .about button {
+        border: 5px solid #2e75b5;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 2vw;
+    }
+    #index .box-image .title-img p {
+        font-size: 22px;
+    }
+    #index .box-image .title-img span {
+        font-size: 18px;
+    }
+
+    #index .description span {
+        font-size: 1.2em;
+        letter-spacing: 0.04em;
+    }
+    #index .description ul li {
+        font-size: 1.2em;
+        letter-spacing: 0.04em;
+    }
+
+    .box-describe .preamble{
+        font-size: 13px;
+    }
+    
+    .box-describe p{
+        font-size: 14px;
+    }
+
+    .box-describe table{
+        font-size: 14px;
+    }
+
+    #company .business .mt {
+        margin-top: 60px;
+    }
+    #contact label{
+        font-size: 14px !important;
+    }
+
+    #pcr .list-check span {
+        font-size: 16px;
+    }
+    
+    #pcr .note{
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (width: 768px) {
+    .menu {
+        padding: 0px !important;
+    }
+    .header .menu .navbar-nav p {
+        font-size: 10px;
+    }
+    .header .menu .navbar-nav span {
+        font-size: 8px;
+    }
+    .logo img {
+        width: 80%;
+    }
+    .logo span {
+        font-size: 10px;
+    }
+    .navbar-nav a{
+        padding: 13px !important;
+    }
+    #layer h1 {
+        font-size: 28px;
+    }
+
+    .box-describe h1 {
+        font-size: 30px;
+    }
+
+    #index .box-image .title-img p {
+        font-size: 17px;
+    }
+    #index .box-image .title-img span {
+        font-size: 13px;
+    }
+    #index .about button {
+        border: 3px solid #2e75b5;
+        border-radius: 10px;
+    }
+    #index .title p {
+        font-size: 20px;
+    }
+
+    #index .description span {
+        font-size: 1em;
+        letter-spacing: 0.04em;
+    }
+    #index .description ul li {
+        font-size: 1em;
+        letter-spacing: 0.04em;
+    }
+
+    #company .business .mt {
+        margin-top: 30px;
+    }
+    #company .business ul li {
+        margin-bottom: -1rem;
+    }
+
+    
+
+    
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  
+    .fixed-top-customer {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    #layer h1 {
+        font-size: 20px;
+    }
+    .box-describe h1 {
+        font-size: 30px;
+    }
+
+    #company .business .mt {
+        margin-top: 30px;
+    }
+    #company .business ul li {
+        margin-bottom: -1rem;
+    }
+    #index .box-image .title-img p {
+        font-size: 17px;
+    }
+    #index .box-image .title-img span {
+        font-size: 13px;
+    }
+    #index .about button {
+        border: 3px solid #2e75b5;
+        border-radius: 10px;
+    }
+    #index .title p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .navbar-nav {
+        opacity: 0;
+    }
+    .banner-text {
+        /* font-size: 1rem; */
+        margin: 2rem !important;
+    }
+    #layer h1 {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #layer h1 {
+        font-size: 20px;
+    }
+    .menu .logo img {
+        width: 75%;
+    }
+    .menu button {
+        font-size: 12px;
+    }
+    .menu .navbar {
+        padding: 12px;
+    }
+
+    .footer .information img{
+        width: 100px;
+    }
+    
+    .footer .information a{
+        font-size: 12px;
+    }
+    
+    .footer .copy p{
+        font-size: 10px;
+        letter-spacing: 0.04em;
+        font-weight: 500;
+    }
+
+    .footer{
+        padding-top: 40px;
+    }
+
+    #index .box-image .title-img p {
+        font-size: 15px;
+    }
+    #index .box-image .title-img span {
+        font-size: 10px;
+    }
+    #index .about p {
+        font-size: 15px;
+    }
+    #index .about button {
+        border: 3px solid #2e75b5;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    #index .box-image .title-img {
+        font-size: 12px;
+    }
+    #index .title p {
+        font-size: 18px;
+    }
+
+    #index .description span {
+        font-size: 0.8em;
+        letter-spacing: 0.04em;
+    }
+    #index .description ul li {
+        font-size: 0.8em;
+        letter-spacing: 0.04em;
+    }
+
+    #index .description p {
+        font-size: 0.8em;
+        letter-spacing: 0.04em;
+    }
+
+    #company .business .mt {
+        margin-top: 20px;
+    }
+    .w-35 {
+        width: 35% !important;
+    }
+    .w-65 {
+        width: 65% !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .menu .logo span {
+        font-size: 13px;
+    }
+
+    #index .box-image .title-img p {
+        font-size: 12px;
+    }
+    #index .box-image .title-img span {
+        font-size: 9px;
+    }
+    #index .title p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #index .box-image .title-img p {
+        font-size: 10px;
+    }
+    #index .box-image .title-img span {
+        font-size: 7px;
+        line-height: 1.6;
+    }
+    #contact .g-recaptcha {
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+
+    #topics_detail .btn-outline-secondary-custom{
+        width: 110px;
+        /* font-size: 10px; */
+    }
+}
