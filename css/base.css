@@ -572,4 +572,12 @@ a:link, a:visited {
         width: 110px;
         /* font-size: 10px; */
     }
+    #index .description span {
+        font-size: 0.7em;
+        letter-spacing: 0.04em;
+    }
+    #index .description ul li {
+        font-size: 0.7em;
+        letter-spacing: 0.04em;
+    }
 }
