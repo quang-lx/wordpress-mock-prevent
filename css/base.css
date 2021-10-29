@@ -572,6 +572,9 @@ a:link, a:visited {
         width: 110px;
         /* font-size: 10px; */
     }
+    #index .description .box-description{
+        padding: 5px;
+    }
     #index .description span {
         font-size: 0.7em;
         letter-spacing: 0.04em;
